@@ -72,6 +72,9 @@ $(document).ready(function() {
                     nav:true,
                     navText: ["<i class='fas fa-arrow-left'></i>","<i class='fas fa-arrow-right'></i>"],
                     items:2,
+                    autoplay:true,
+                    autoplayTimeout:2000,
+                autoplayHoverPause:true,
                     dots:true,
                     
                     responsive:{
